@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  @apply text-white fill-white m-0 p-0 absolute h-[100%] w-[100%];
+}
+
+.circle {
+  margin: 0 auto;
+  display: block;
+  border: 2px solid rgb(161, 196, 66);
+  border-radius: 50%;
+  height: 112px;
+  width: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
